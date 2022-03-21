@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App1.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--<StackLayout>
+
+    -->
+    <!--<StackLayout BackgroundColor="Red">
+            <Label Text="Hello world" />
+        </StackLayout>-->
+
+    <!--<AbsoluteLayout BackgroundColor="Red">
+            <Label Text="Hello world" />
+        </AbsoluteLayout>
+
+        <StackLayout BackgroundColor="Green">
+            <Label Text="Ini text dari stacklayout kedua" />
+        </StackLayout>-->
+    <!--
+
+        <Label Text="Ini text dari stacklayout kedua" />
+        <Entry Text="" />
+        <Button Text="Login" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+    -->
+    <!--  Row 1  -->
+    <!--
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="0"
+                BackgroundColor="Red" />
+
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="1"
+                BackgroundColor="Green" />
+
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="2"
+                BackgroundColor="Yellow" />
+
+    -->
+    <!--  Row 2  -->
+    <!--
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="2"
+                BackgroundColor="Red" />
+
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="1"
+                BackgroundColor="Green" />
+
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="0"
+                BackgroundColor="Yellow" />
+
+    -->
+    <!--  Row 4  -->
+    <!--
+            <BoxView
+                Grid.Row="30"
+                Grid.Column="20"
+                BackgroundColor="Red" />
+
+            <BoxView
+                Grid.Row="30"
+                Grid.Column="10"
+                BackgroundColor="Green" />
+
+            <BoxView
+                Grid.Row="30"
+                Grid.Column="0"
+                BackgroundColor="Yellow" />
+
+        </Grid>
+
+    </StackLayout>-->
+
+    <StackLayout>
+
+        <Label Text="Username :" />
+        <Entry x:Name="EntryUsername" />
+
+        <Label Text="Password :" />
+        <Entry x:Name="EntryPassword" />
+
+        <Button
+            x:Name="ButtonLogin"
+            Clicked="Button_Clicked"
+            Text="Login" />
+
+    </StackLayout>
+
+</ContentPage>
